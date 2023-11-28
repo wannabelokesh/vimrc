@@ -5,11 +5,13 @@
 
 " MAPPINGS ----------------------------------------------- {{{
 set nocompatible
+set nobackup nowritebackup
+set noswapfile
 filetype on
 filetype plugin on
 filetype indent on
 set background=dark
-colorscheme molokai_dark
+" colorscheme molokai
 syntax on
 set number
 set cursorline
